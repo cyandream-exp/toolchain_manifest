@@ -5,7 +5,7 @@
            review="review.android.git.linaro.org" />
 
   <remote  name="linaro-android"
-           fetch="http://android.git.linaro.org/git-ro/"
+           fetch="git://android.git.linaro.org/"
            review="review.android.git.linaro.org" />
 
   <remote  name="linaro-other"
