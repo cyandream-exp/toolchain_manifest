@@ -8,6 +8,10 @@
            fetch="git://android.git.linaro.org/"
            review="review.android.git.linaro.org" />
 
+  <remote  name="gh"
+           fetch="git://github.com/"
+           review="yauniks.dynvpn.de:8082" />
+
   <remote  name="linaro-other"
            fetch="git://git.linaro.org/" />
 
@@ -16,7 +20,7 @@
 
   <project path="benchmark" name="toolchain/benchmark" revision="master" />
   <project path="binutils/binutils-current" name="toolchain/binutils-current" revision="linaro-2.23.52.0.2" />
-  <project path="build" name="toolchain/build" />
+  <project path="build" name="cyandream-exp/toolchain_build" revision="master" remote="gh" />
   <project path="gcc-patches" name="toolchain/gcc-patches" revision="master" />
   <project path="gdb/gdb-current" name="toolchain/gdb-current" revision="linaro-7.5-2012.12-1" />
   <project path="gmp/gmp-current" name="toolchain/gmp-current" revision="linaro-5.1.1" />
